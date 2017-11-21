@@ -1,0 +1,11 @@
+<h1>Register a new customer here</h1>
+
+<form action="" method="post">
+	{% csrf_token %}
+    <label for="cust_name">Enter name: </label>
+    <input id="cust_name" type="text" name="cust_name" value="Enter your name"><br>
+    <label for="cust_age">Enter age: </label>
+    <input id="cust_age" type="text" name="cust_age" value="Enter your age">
+    <br>
+    <input type="submit" value="Register">
+</form>
